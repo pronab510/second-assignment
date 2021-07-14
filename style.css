@@ -14,6 +14,15 @@
  /* ===============
  Banner Section CSS
  ==================*/
+ .navigation-bar{
+     font-size: 30px;
+     padding: 15px;
+     background-color: blue;
+     
+ }
+ nav a{
+    text-decoration: none;
+ }
  
  .banner-container{
      background-color: #2D25A0;
@@ -127,56 +136,25 @@
  /* ==================
  Recent Blog Post CSS
  ===================== */
- .news-blog h1{
-     font-weight: 700;
-     font-size: 46px;
-     color: #0f132b;
+ 
+  
+ h1{
      text-align: center;
+     color: #E02C6D;
  }
- .news-container{
-     padding-top: 70px;
- }
- .news{
-     display: grid;
-     grid-template-columns: repeat(2, 40%);
-     justify-content: center;
-     column-gap: 50px;
-     row-gap: 30px;
- }
- .news-content {
-     width: 560px;
-     height: 150px;
-     background-color: white;
+ .news-blog{
      display: flex;
-     box-shadow: 0px 0px 2px 1px gray;
+     flex-direction: row;
+     padding: 20px;
  }
- .news-content:hover{
-     box-shadow: 3px 3px 3px 3px gray;
+ .news-blog img{
+    
+     height: 250px;
+
+      width: 300px;
  }
- .blog-details{
-     display: flex;
-     flex-direction: column;
- }
- .news-content img{
-     width: 120px;
-     height: 120px;
-     padding: 15px 15px 10px 15px;
- }
- .news-content h3{
-     padding-top: 10px;
-     padding-left: 15px;
-     font-weight: 700;
-     font-size: 28px;
-     color: #0f132b;
-     margin: 0;
- }
- .news-content p{
-     padding: 15px;
-     margin: 0;
-     font-size: 16px;
-     color: #6C6C6C;
-     text-align: justify;
-     margin-top: -5px;
+ .button{
+     background-color: blue;
  }
  
  /* =============
@@ -342,50 +320,32 @@
      }
  }
  
- /* Recent Blog Post */
+ /* ==================
+ Recent Blog Post CSS
+ ===================== */
+ 
  
  @media only screen and (max-width: 688px) {
-     .news-blog h1{
-         font-size: 26px;
-     }
-     .news-container{
-         padding-top: 70px;
-     }
-     .news{
-         display: grid;
-         grid-template-columns: repeat(1, 1fr);
-     }
-     .news-content {
-         width: 91%;
-         height: 115px;
-         margin-left: 15px;
-     }
-     .blog-details{
-         display: flex;
-         flex-direction: column;
-     }
-     .news-content img{
-         width: 85px;
-         height: 88px;
-         padding: 15px 15px 10px 10px;
-     }
-     .news-content h3{
-         padding-top: 5px;
-         padding-left: 0px;
-         padding-bottom: 13px;
-         font-size: 20px;
-         margin: 0;
-     }
-     .news-content p{
-         padding-left: 0;
-         padding-right: 10px;
-         margin: 0;
-         font-size: 12px;
-         margin-top: -28px;
-         line-height: 1.ch;
-     }
- }
  
+  
+ h1{
+    text-align: center;
+    color: #E02C6D;
+}
+.news-blog{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.news-blog img{
+   
+    height: 250px;
+
+     width: 300px;
+}
+.button{
+    background-color: blue;
+}
  /* Players gallery */
  
  @media only screen and (max-width: 688px) {
@@ -500,52 +460,33 @@
      }
  }
  
- /* Recent Blog Post */
+ /* ==================
+ Recent Blog Post CSS
+ ===================== */
  
- @media only screen and (min-width: 688px) and (max-width:992px){
  
-     .news-blog h1{
-         font-size: 36px;
-     }
-     .news-container{
-         padding-top: 70px;
-     }
-     .news{
-         display: grid;
-         grid-template-columns: repeat(2, 1fr);
-         column-gap: 0px;
-         padding-left: 18px;
-     }
-     .news-content {
-         width: 345px;
-         height: 115px;
-         margin-left: 7px;
-     }
+ @media only screen and (max-width: 688px){
  
-     .blog-details{
-         display: flex;
-         flex-direction: column;
-     }
-     .news-content img{
-         width: 85px;
-         height: 88px;
-         padding: 15px 15px 10px 15px;
-     }
-     .news-content h3{
-         padding-top: 5px;
-         padding-left: 0px;
-         font-size: 20px;
-         margin: 0;
-     }
-     .news-content p{
-         padding-left: 0;
-         padding-right: 10px;
-         margin: 0;
-         font-size: 12px;
-         margin-top: -28px;
-         line-height: 1.ch;
-     }
+  
+ h1{
+    text-align: center;
+    color: #E02C6D;
+}
+.news-blog{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.news-blog img{
+   
+    height: 250px;
+
+     width: 300px;
+}
+.button{
+    background-color: blue;
  }
+}
  /* Players gallery */
  
  @media only screen and (min-width: 688px) and (max-width:992px){
@@ -599,3 +540,4 @@
          padding-right: 35px;
      }
  }
+}
